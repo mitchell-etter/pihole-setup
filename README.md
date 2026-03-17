@@ -23,7 +23,7 @@ The following diagram illustrates the topology of my Pi-Hole setup on my network
 ```mermaid
 graph TD
     subgraph Network
-        Devices[Devices]
+        Devices@{shape: procs, label: "Devices"}
 
         subgraph Raspberry Pi #1
             PiHole1[Pi-Hole Service]
